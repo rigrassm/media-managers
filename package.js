@@ -47,7 +47,10 @@ Package.onUse(function(api) {
   api.use('reactive-var');
   api.use('fortawesome:fontawesome@4.4.0')
 
-  api.export("media-managers");
+  api.export("CouchPotato");
+  api.export("Sonarr");
+  api.export("SickRage");
+  api.export("tvmave");
 });
 
 Package.onTest(function(api) {
