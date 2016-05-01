@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'rigrassm:mediaManagers',
+  name: 'rigrassm:media-managers',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Wrapper for media managing applications used by Plexrequests',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/rigrassm/mediaManagers',
+  git: 'https://github.com/rigrassm/media-managers',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -47,13 +47,13 @@ Package.onUse(function(api) {
   api.use('reactive-var');
   api.use('fortawesome:fontawesome@4.4.0')
 
-  api.export("mediaManagers");
+  api.export("media-managers");
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('rigrassm:mediaManagers');
-  api.addFiles('mediaManagers-tests.js');
+  api.use('rigrassm:media-managers');
+  api.addFiles('media-managers-tests.js');
 });
 
 
