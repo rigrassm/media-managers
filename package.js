@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rigrassm:media-managers',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Wrapper for media managing applications used by Plexrequests',
   // URL to the Git repository containing the source code for this package.
