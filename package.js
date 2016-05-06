@@ -22,7 +22,6 @@ Package.onUse(function(api) {
 
   // Sickrage
 
-  api.addFiles('lib/server/methods/tvmaze.js', ['server']);
   api.addFiles('lib/server/methods/sickrage/available.js', ['server']);
   api.addFiles('lib/server/methods/sickrage/checkShow.js', ['server']);
   api.addFiles('lib/server/methods/sickrage/addShow.js', ['server']);
@@ -50,13 +49,11 @@ Package.onUse(function(api) {
   api.export("CouchPotato");
   api.export("Sonarr");
   api.export("SickRage");
-  api.export("tvmave");
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('rigrassm:media-managers');
-  api.addFiles('media-managers-tests.js');
 });
 
 
