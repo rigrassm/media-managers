@@ -37,6 +37,9 @@ Package.onUse(function(api) {
   api.addFiles('lib/server/methods/sonarr/seriesGet.js', ['server']);
   api.addFiles('lib/server/methods/sonarr/seriesDelete.js', ['server']);
   
+ // Export Functions
+
+  api.addFiles('lib/server/export/functions.js', ['server']);
   
   api.use('meteor-base@1.0.1')
   api.use('templating');
