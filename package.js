@@ -39,7 +39,7 @@ Package.onUse(function(api) {
   
  // Export Functions
 
-  api.addFiles('lib/server/export/functions.js', ['server']);
+  api.addFiles('lib/server/exports/functions.js', ['server']);
   
   api.use('meteor-base@1.0.1')
   api.use('templating');
